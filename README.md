@@ -1,5 +1,5 @@
 # Wafer-Defect-Classification
-Implementation of the 2017 Deformable Convolutional Network algorithm (Jifeng Dai et al. at https://arxiv.org/abs/1703.06211) on MixedWM38 wafer map defect dataset (https://www.kaggle.com/co1d7era/mixedtype-wafer-defect-datasets).
+Implementation of the 2017 Deformable Convolutional Network algorithm (Jifeng Dai et al. https://arxiv.org/abs/1703.06211) on MixedWM38 wafer map defect dataset (https://www.kaggle.com/co1d7era/mixedtype-wafer-defect-datasets).
 
 Defining and implementing a new tensorflow layer "DefConvLayer"
 
