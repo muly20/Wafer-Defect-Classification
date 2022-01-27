@@ -17,13 +17,13 @@ Model Structure
 I used 4 blocks of Deformable convolutional Layers with increasing channels (32, 64, 128, 128), with each followed by Batch Normalization and a ReLU activation. Classification block consisted of Global Average Pooling layer and a Fully connected layer with 8 output neurons each activated using a sigmoid.
 
 Training
-Using 80% of the (shuffled) dataset-- total of 38,015 samples, as the train set, SGD optimizer (as in Juliang Wang's paper) with 0.01 learning rate and 0.9 for momentum. I ran only 20 Epochs due to resource constraints.
+Using 80% of the (shuffled) dataset-- total of 38,015 samples, as the train set, SGD optimizer with learning rate of 0.01 and momentum of 0.9. I ran only 20 Epochs due to resource constraints.
 I used binary crossentropy as the loss function and implemented an accuracy metric to work well on multilabel (more-than-)one-hot label vectors.
 
 Evaluation
 Accuracy on the test set came at 94.16%, and the average f-score accross classes came at 0.981, with 0.9375 as the lowest class value.
 Accuracy across defect types compared to the 2020 paper of Juliang Wang (https://ieeexplore.ieee.org/document/9184890/):
-![image](https://user-images.githubusercontent.com/96395197/151401819-21b1ae5b-e510-40d8-bdcc-6f21cdc3bb1d.png)
-![image](https://user-images.githubusercontent.com/96395197/151401843-a3e91721-c98f-416a-b3d1-36a2e84b886a.png)
-![image](https://user-images.githubusercontent.com/96395197/151401870-c3e655c6-b378-440e-93d5-08dc12543d8f.png)
-![image](https://user-images.githubusercontent.com/96395197/151401882-6bddebf5-0e43-4626-84d1-4df9baecf8fd.png)
+![image](https://user-images.githubusercontent.com/96395197/151402550-8a9f91c3-d858-44d9-bcf6-ab0a24dd6a56.png)
+![image](https://user-images.githubusercontent.com/96395197/151402566-dd064507-6697-493a-93c7-4c0c67fa3bd3.png)
+![image](https://user-images.githubusercontent.com/96395197/151402589-8da9e955-f088-4fed-8d19-94d1afbb67e4.png)
+![image](https://user-images.githubusercontent.com/96395197/151402603-6b5123a3-2786-4234-a4b2-80bb926df895.png)
