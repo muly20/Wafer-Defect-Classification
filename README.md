@@ -27,3 +27,6 @@ Accuracy across defect types compared to the 2020 paper of Juliang Wang (https:/
 ![image](https://user-images.githubusercontent.com/96395197/151402566-dd064507-6697-493a-93c7-4c0c67fa3bd3.png)
 ![image](https://user-images.githubusercontent.com/96395197/151402589-8da9e955-f088-4fed-8d19-94d1afbb67e4.png)
 ![image](https://user-images.githubusercontent.com/96395197/151402603-6b5123a3-2786-4234-a4b2-80bb926df895.png)
+
+I also show area of focus of the model through Class Activation Map, for example:
+![image](https://user-images.githubusercontent.com/96395197/151403345-9c0e8d80-2cf2-45ff-b1af-48bb6aeeccf4.png)
