@@ -21,7 +21,7 @@ Using 80% of the (shuffled) dataset-- total of 38,015 samples, as the train set,
 I used binary crossentropy as the loss function and implemented an accuracy metric to work well on multilabel (more-than-)one-hot label vectors.
 
 Evaluation
-Accuracy on the test set came at 94.16%, and the average f-score accross classes came at 0.981, with 0.9375 as the lowest class value.
+Accuracy on the test set (after 20 epochs) came at 95.74%, and the average f-score accross classes came at 0.9775, with 0.88 as the lowest class value.
 Accuracy across defect types compared to the 2020 paper of Juliang Wang (https://ieeexplore.ieee.org/document/9184890/):
 ![image](https://user-images.githubusercontent.com/96395197/151860520-84ac7af4-b5a4-4e22-bbd1-f0ddd7b7f522.png)
 ![image](https://user-images.githubusercontent.com/96395197/151860537-e573b160-7f31-4d18-94c9-d0c13e3d3fe5.png)
