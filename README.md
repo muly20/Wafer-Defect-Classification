@@ -23,10 +23,12 @@ I used binary crossentropy as the loss function and implemented an accuracy metr
 Evaluation
 Accuracy on the test set came at 94.16%, and the average f-score accross classes came at 0.981, with 0.9375 as the lowest class value.
 Accuracy across defect types compared to the 2020 paper of Juliang Wang (https://ieeexplore.ieee.org/document/9184890/):
-![image](https://user-images.githubusercontent.com/96395197/151402550-8a9f91c3-d858-44d9-bcf6-ab0a24dd6a56.png)
-![image](https://user-images.githubusercontent.com/96395197/151402566-dd064507-6697-493a-93c7-4c0c67fa3bd3.png)
-![image](https://user-images.githubusercontent.com/96395197/151402589-8da9e955-f088-4fed-8d19-94d1afbb67e4.png)
-![image](https://user-images.githubusercontent.com/96395197/151402603-6b5123a3-2786-4234-a4b2-80bb926df895.png)
+![image](https://user-images.githubusercontent.com/96395197/151860520-84ac7af4-b5a4-4e22-bbd1-f0ddd7b7f522.png)
+![image](https://user-images.githubusercontent.com/96395197/151860537-e573b160-7f31-4d18-94c9-d0c13e3d3fe5.png)
+![image](https://user-images.githubusercontent.com/96395197/151860556-e5df519b-d16e-472c-aa13-57a7a1a98d55.png)
+![image](https://user-images.githubusercontent.com/96395197/151860565-78f88815-d8b3-416a-80e6-4affe2ce6a53.png)
+
 
 I also show area of focus of the model through Class Activation Map, for example:
-![image](https://user-images.githubusercontent.com/96395197/151403345-9c0e8d80-2cf2-45ff-b1af-48bb6aeeccf4.png)
+![image](https://user-images.githubusercontent.com/96395197/151860692-43d53e38-3aac-4989-b71b-777f228f021a.png)
+
